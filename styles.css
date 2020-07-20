@@ -1,29 +1,60 @@
+html {
+  height: 100vh;
+
+}
+
+body {
+  height: 100%;
+
+
+}
+
 .grid-container {
   display: grid;
-  grid-template-areas: 'header header header header'
-                       'menu main main main'
-                       'menu main maain main'
-                       'menu footer footer footer';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+  grid:  'header header header header'
+         'menu main main main'
+         'menu main main main'
+         'footer footer footer footer';
+  grid-gap: .25em;
+  grid-template-rows: 10% 40% 40% 10%;
+  height: 100%;
+  width: 100%;
+
+  //background-color: #ff0000;
+
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  //background-color: #00ff00;
   text-align: center;
-  font-size: 30px;
+  font-size: 2em;
+  margin: 0;
+  padding:0;
+  border:0;
 }
 
 #header {
   grid-area: header;
+
+
 }
 #menu {
   grid-area: menu;
+
+
 }
 #main {
   grid-area: main;
+
 }
 #footer {
   grid-area: footer;
+
+ 
+}
+
+#footer > p {
+  text-align:top;
+  margin:0;
+  
 }
