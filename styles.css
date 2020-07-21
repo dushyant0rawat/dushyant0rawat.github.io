@@ -1,11 +1,9 @@
-html {
-  height: 100vh;
-
+* {
+  box-sizing: border-box;
 }
 
-body {
+html, body{
   height: 100%;
-
 
 }
 
@@ -15,11 +13,10 @@ body {
          'menu main main main'
          'menu main main main'
          'footer footer footer footer';
-  grid-gap: .25em;
+  grid-template-columns: 20% 30% 30% 20%;
   grid-template-rows: 10% 40% 40% 10%;
   height: 100%;
   width: 100%;
-
   //background-color: #ff0000;
 
 }
@@ -35,26 +32,19 @@ body {
 
 #header {
   grid-area: header;
-
-
 }
+
 #menu {
   grid-area: menu;
-
-
 }
+
 #main {
   grid-area: main;
-
 }
 #footer {
   grid-area: footer;
-
- 
 }
 
-#footer > p {
-  text-align:top;
+p{
   margin:0;
-  
 }
