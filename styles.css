@@ -3,7 +3,7 @@
 }
 
 html, body{
-  height: 100%;
+  //height: 100%;
 
 }
 
@@ -24,7 +24,6 @@ html, body{
 .grid-container > div {
   //background-color: #00ff00;
   text-align: center;
-  font-size: 2em;
   margin: 0;
   padding:0;
   border:0;
@@ -43,6 +42,11 @@ html, body{
 }
 #footer {
   grid-area: footer;
+}
+
+
+div#main p {
+  font-size: 50%;
 }
 
 p{
