@@ -8,4 +8,4 @@ async function FetchImg(url) {
     console.log('fetch failed', err);
   }
 }
-FetchImg("cc-tree.jpg");
+//FetchImg("cc-tree.jpg");
