@@ -2,12 +2,12 @@
 
 <table style="background:none;">
   <tr >
-    <td><img src="https://freenaturestock.com/wp-content/uploads/freenaturestock-1903-768x512.jpg" width="300" height"300"</td>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=dushyant0rawat&theme=default&show_icons=true"</td>
+    <td><img alt="nature stock image" src="https://freenaturestock.com/wp-content/uploads/freenaturestock-1903-768x512.jpg" width="300" height"300"></td>
+    <td><img alt="repo stats" src="https://github-readme-stats.vercel.app/api?username=dushyant0rawat&theme=default&show_icons=true"></td>
   </tr>
   <tr >
-    <td><img src="https://img.shields.io/badge/Android%20Developer-%20-brightgreen"</td>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dushyant0rawat"</td>
+    <td><img alt="develop" src="https://img.shields.io/badge/Android%20Developer-%20-brightgreen"></td>
+    <td><img alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dushyant0rawat"></td>
   </tr>
 </table>
 
