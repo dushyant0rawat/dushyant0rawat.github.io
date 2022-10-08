@@ -1,6 +1,6 @@
 <table style="boder:none;">
   <tr >
-    <td><img alt="nature stock image" src="https://freenaturestock.com/wp-content/uploads/freenaturestock-1903-768x512.jpg" width="300" height="300"></td>
+    <td><img alt="nature stock image" src="https://freenaturestock.com/wp-content/uploads/freenaturestock-1903-768x512.jpg" style="object-fit:contain"></td>
     <td><img alt="repo stats" src="https://github-readme-stats.vercel.app/api?username=dushyant0rawat&theme=default&show_icons=true"></td>
   </tr>
   <tr >
