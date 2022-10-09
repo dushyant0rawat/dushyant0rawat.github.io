@@ -1,5 +1,5 @@
-<table style="boder:none;">
-  <tr >
+<table style="boder:none;height:100%">
+  <tr style="height:60%">
     <td><img alt="nature stock image" src="https://freenaturestock.com/wp-content/uploads/freenaturestock-1903-768x512.jpg" style="width:50%;object-fit:contain"></td>
     <td><img alt="repo stats" src="https://github-readme-stats.vercel.app/api?username=dushyant0rawat&theme=default&show_icons=true"></td>
   </tr>
