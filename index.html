@@ -3,33 +3,56 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Welcome to my page</title>
+  <title>My github page</title>
 <style>
-  #table-size {
-   border:none;
-   width:100%;
-   height:80%;
-  }
-  #stock-image{
-    width:50%;
-    object-fit:contain;
-  }
+body{
+min-height:100vh;
+}
+
+#main-section {
+display:flex;
+flex-direction:row;
+}
+
+#sidebar {
+display:flex;
+width:30%;
+flex-direction:column;
+justify-content: space-around;
+}
+
+#sidebar-image{
+width:50%;
+object-fit:contain;
+}
+
+#main {
+display:flex;
+flex-direction:column;
+}
+
+#footer {
+display:inline;
+}
+
 </style>
 </head>
   
 <body>
 
-<table id="table-size">
-  <tr >
-    <td><img alt="nature stock image" src="https://freenaturestock.com/wp-content/uploads/freenaturestock-1903-768x512.jpg" id="stock-image"></td>
-    <td><img alt="repo stats" src="https://github-readme-stats.vercel.app/api?username=dushyant0rawat&theme=default&show_icons=true"></td>
-  </tr>
-  <tr >
-    <td><img alt="develop" src="https://img.shields.io/badge/Android%20Developer-%20-brightgreen"></td>
-    <td><img alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dushyant0rawat"></td>
-  </tr>
-</table>
-<span>
+<section id="main-section">
+<aside id="sidebar">
+<img alt="nature stock image" src="https://freenaturestock.com/wp-content/uploads/freenaturestock-1903-768x512.jpg" id="sidebar-image">
+<img alt="develop" src="https://img.shields.io/badge/Android%20Developer-%20-brightgreen" style="max-width:50%;">
+</aside>
+
+<main id="main">
+<img alt="repo stats" src="https://github-readme-stats.vercel.app/api?username=dushyant0rawat&theme=default&show_icons=true">
+<img alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dushyant0rawat">
+</main>
+</section>
+
+<footer id="footer">
 <img src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white">
 <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
@@ -38,7 +61,7 @@
 <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white">
 <img src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white">
- </span>
+</footer>
 
 </body>
 </html>
