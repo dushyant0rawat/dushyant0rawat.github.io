@@ -4,7 +4,6 @@
      
   </tr>
   <tr >
-    <td><img alt="develop" src="https://img.shields.io/badge/Android%20Developer-%20-brightgreen"></td>
     <td><img alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dushyant0rawat"></td>
   </tr>
 </table>
